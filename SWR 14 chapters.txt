@@ -1,0 +1,882 @@
+QN=1 A meta-model is a conceptual model for the meta-level, the highest level, thus consisting of concepts, relationships, attributes and constraints defined in all levels (meta-, domain- and instance-level).
+a. True
+b. False	b
+QN=2 System model is made up of five views. Which one of the following view captured by goal model:
+a. Structural view
+b. Functional view
+c. Behavioural view
+d. None of the others	d
+QN=3 The instance level is made of concepts that are instances of meta-level abstractions.
+a. True
+b. False	b
+QN=4 Two meta-attributes are mandatory for any meta-concept whatever view it refers to:
+a. "Name" and "Category"
+b. "Identifier" and "Name"
+c. "Name" and "Def"
+d. "Identifier" and "Issue"	c
+QN=5 In figure 14.4, which one of the following word is the name of (A):
+a. Association
+b. Relationship.
+c. ConceptualObject.
+d. None of the others.	a
+QN=6 In figure 14.6, which one of the following word is the name of (B):
+a. Responsibility
+b. Operationalization
+c. Performance
+d. Capability	b
+QN=7 In figure 14.7, which one of the following word is the name of (C):
+a. BehaviourModel
+b. OperationModel
+c. GoalModel
+d. AgentModel	a
+QN=8 Which one of the following object is the root meta-concept:
+a. ObjectModel
+b. OperationModel.
+c. SystemModel.
+d. None of the others.	c
+QN=9 The name of elements defined in a package are __________.
+a. local to the package and its descendants.
+b. public to all packages.
+c. None of the others.	a
+QN=10 To facilitate model configuration and evolution, we should specify _________ among packages.
+a. Generalization links.
+b. Inheritance links.
+c. Dependency links.
+d. None of the others.	c
+QN=11 All of the following statements about structural consistency of the goal and object models are correct, EXCEPT?
+a. Every conceptual item referred to in a goal specification in the goal model must appear as an attribute or object in the object model
+b. Every goal in the goal model must concern at least one object in the object model
+c. For every object in the object model, there must be at least one goal in the goal model concerning with it
+d. Every goal in the goal model must be existent in the object model	d
+QN=12 All of the following statements about structural consistency of the goal and behavior models are incorrect, EXCEPT?
+a. Every conceptual item referred to in a goal specification in the goal model must appear as an attribute or action in the behavior model
+b. Every scenario in the behavior model must be covered by at least one goal in the goal model
+c. For every SM state in the goal model, there must be at least one goal in the goal model refer to it
+d. Every goal in the goal model must concern at least an action or an event in the behavior model	b
+QN=1 In scenario diagram, an interaction is a/an _________.
+a. Active object
+b. Passive object
+c. Instantaneous object
+d. None of the others	c
+QN=2 In positive scenario, the sequence of interactions illustrates a possible way of satisfying an obstacle to a goal.
+a. True
+b. False	b
+QN=3 External events: the agent associated with the State Machine does not controls.
+a. True
+b. False	a
+QN=4 In an SM diagram, a transition is labelled by _____ from a source state to a target state.
+a. an event
+b. an action
+c. an operation
+d. None of the others	a
+QN=5 Which one of the following statements about required condition is true? In a state machine diagram, a guard condition captures a _______ condition for state transition.
+a. necessary
+b. sufficient	a
+QN=6 The initial states of the instance correspond to the states where it disappears from the system.
+a. True
+b. False	b
+QN=7 
+In figure 13.6, the pair of object instances [PatrID, self] is called:
+a. the parameters of event checkOut
+b. the attributes of event checkOut
+c. the guard conditions of event checkOut
+d. None of the others.	b
+QN=8 For stepwise refinement of a state diagram, we decompose a state into sequential or parallel sub-states.
+a. true
+b. false	a
+QN=9 Which part of Figure 13.4 is called "episode"?.
+a. (A)
+b. (B)	a
+QN=10 A scenario is a temporal sequence of interaction events among agent.
+a. True
+b. False	b
+QN=11 Which of the followings are not strengths of goal model?
+a. satisfaction arguments
+b. concrete examples
+c. expressive (functional, non-functional; alternative options)
+d. acceptance test data	c,d
+QN=12 Which of the followings are strengths of state machines model?
+a. expressive (functional, non-functional; alternative options)
+b. visual abstraction of explicit behaviors of any agent instance in a class
+c. acceptance test data
+d. code generation	b,d
+QN=13 Which of the following are semantic rules used to define sequential state decomposition?
+a. The instance modelled by the diagram is in the super-state if and only if it is in one (and only one) of the sequential sub-states
+b. The instance modelled by the diagram is in the super-state if and only if it is in each of the concurrent sub-states
+c. An incoming transition to the super-state is by default inherited by every sequential sub-states as an incoming transition to it.	a,c
+QN=1 A/An ________ designates an object instance to which the operation applies. The state of this instance affects the application of the operation.
+a. State variable
+b. Input variable
+c. Out variable
+d. None of the others	b
+QN=2 A particular application of the operation yields a state _______ from a state in InputState to a state in OutputState.
+a. transformation
+b. exchange
+c. transition
+d. none of the others	c
+QN=3 Domain pre- and post-conditions are prescriptive.
+a. True
+b. False	b
+QN=4 The specification of an operation therefore includes a set of prescriptive conditions on operation applications. These conditions are aimed at ensuring that ______.
+a. the operation is dependent on the goals
+b. the goals underlying the operation are satisfied
+c. the operation associates with the goals
+d. None of the others	b
+QN=5 Which one of the following statements about required condition is true?
+a. Required pre-condition captures an obligation.
+b. Required trigger condition captures an additional effect.
+c. Required post-condition captures a permission.
+d. none of the others	d
+QN=6 The operation is not applied if a trigger condition becomes true in a state where the operation's domain pre-condition is not true.
+a. True
+b. False	a
+QN=7 Which one of the following statements is false?
+a. An operation may operationalizes multiple goals.
+b. A goal may be operationalized by multiple operations.
+c. Multiple agents perform an operation.
+d. An agent may perform multiple operations.	c
+QN=8 An operationalization diagram is an annotated graph showing the system operations, their ______ to goals in the goal model and input/output links to objects in the object model.
+a. performance links 
+b. operationalization links
+c. capability links
+d. None of the others	b
+QN=9 A use case diagram provides an outline view of an operation model by showing the operations that an agent performs together with ________ with other agents.
+a. interaction links.
+b. responsibility links
+c. operationalization links
+d. None of the others	a
+QN=10 In _______ scheme, the agent instance applies the operation when it is really obliged to do so; that is, when one of the operation's required trigger conditions becomes true. 
+a. an eager behaviour
+b. a lazy behaviour	b
+QN=1 An agent model captures the ____-dimension of requirements engineering
+a. WHY
+b. WHO
+c. WHAT
+d. HOW	b
+QN=2 An agent is an ______ system component play a role in goal satisfaction.
+a. Active
+b. Passive
+c. Instantaneous
+d. none of the others	a
+QN=3 Which of the following statements about agent capabilities is wrong?.
+a. An agent monitors an attribute of an object if its instances can get the value of this attribute from object instances
+b. An agent monitors an association if its instances can control this association holds between object instances
+c. An agent controls an attribute of an object if its instances can set values for this attribute on object instances
+d. An agent controls an association if its instances can create and delete association instances	b
+QN=4 A goal under the responsibility of an agent must be realizable by the agent in view of its ________.
+a. Responsibilities
+b. Capabilities
+c. Realizabilities
+d. None of the others	b
+QN=5 Agent capabilities are defined in terms of the system variables that the agent can _____ and _____
+a. Assign / evaluate
+b. Specify / realize
+c. Monitor / control
+d. none of the others	c
+QN=6 
+In figure 11.4, what is the name of the annotation attached to the link between the agent and the operation in the agent model?
+a. Responsibility instance declaration
+b. Capability instance declaration
+c. Performance instance declaration
+d. none of the others	c
+QN=7 Which one of the following statements is the definition of "capability instance declaration" (CID)?.
+a. It annotating a performance link in an agent diagram makes precise which agent instance is performing the operation on which input/output object instance
+b. It annotating a monitoring or control link makes precise which agent instance is monitoring or controlling the attribute/association of which object instance
+c. It annotating a responsibility link in an agent diagram makes it precise which agent instance is responsible for which goal instantiation to specific object instances
+d. None of the others	b
+QN=8 In the agent model, an agent ag1 is said to depend on another agent ag2 for a goal G under the responsibility of ag2, if ___'s failure to get G satisfied can result in ___'s failure to get one of its assigned goals satisfied
+a. ag1 / ag2
+b. ag2 / ag1	b
+QN=9 What is an agent-goal co-refinement process?
+a. A process in which an agent and its assigned goals are refined in parallel into finer-grained agents, sub-goals and responsibility assignments
+b. A process in which agents and assigned goals are generalized in parallel into coarse-grained agents and abstract goals
+c. Both of above statements are wrong	a
+QN=10 
+In figure 11.6, "Train" and "TrainInfo" are classified as
+a. Agents
+b. Events
+c. Entities
+d. Associations	c
+QN=1 An object model provides a _________ of the system-as-is and system-to-be.
+a. Intentional view
+b. Functional view
+c. structural view
+d. behavioral view	c
+QN=2 A/an _________ is a discrete set of instances of a domain-specific concept that are manipulated by the modelled system
+a. System state
+b. State variable
+c. Object class
+d. Conceptual object	d
+QN=3 The features shared by object instances include.
+a. common vocabularies, glossary of terms, object's attributes and definition
+b. goals, agents, operations and behavior models
+c. object's definition, type, individual attributes, associations, domain invariants
+d. None of the others	c
+QN=4 An entity is ___________.
+a. An autonomous and active object
+b. A conceptual object dependent on other objects that it links.
+c. An instantaneous object
+d. None of the others	d
+QN=5 The association is also called under synonymous term __________
+a. 'relation'
+b. 'relationship'
+c. 'linked object'
+d. none of the others	b
+QN=6 Each linked object in an association plays specific _____ in the association
+a. Relation
+b. Role
+c. Link
+d. none of the others	b
+QN=7 The multiplicity on one side of an association specifies the minimum and maximum number of object instances on _______ that may be associated.
+a. the other side
+b. this side
+c. both sides
+d. None of the others	b
+QN=8 An attribute is _______________.
+a. An intrinsic feature of an object regardless of other objects in the model
+b. A relevant feature of an object, including the association with other objects in the model
+c. A quantitative feature of an object
+d. none of the others	a
+QN=9 A specialization link may be introduced in a model between an object SubOb and an object SuperOb if every current instance of _____ is a current instance of _____ as well.
+a. SuperOb / SubOb
+b. SubOb / SuperOb	b
+QN=10 In specialization, the object SubOb plays the role ______ whereas the object SuperOb plays the inverse role ______.
+a. Generalizes / Specializes
+b. Specializes / Generalizes
+c. IsA / SubClassOf
+d. SubClassOf / IsA	b
+QN=11 An______ link may be introduced between an object Ob and objects PartOb1,... PartObn if every current instance of Ob is a tuple of current instances of PartOb1, ...., PartObn.
+a. aggregation
+b. composition
+c. association
+d. combination	a
+QN=12 _______ is a particular case of aggregation whether the composite object Ob and its parts PartObi appear and disappear together in the system.
+a. aggregation
+b. composition
+c. association
+d. combination	b
+QN=1 Obstacle analysis is a ______ of risk analysis aimed at identifying, assessing and resolving the possibilities of breaking assertions in the system's goal mod
+a. assertion-based form
+b. goal-based form
+c. obstacle-based form
+d. requirement-based form	b
+QN=2 An obstacle is a pre-condition for ______ of some goal, hypothesis or questionable domain property used in the goal model.
+a. satisfaction
+b. non-satisfaction
+c. Weakness
+d. Divergent	b
+QN=3 Goals and obstacles are dual notions. Therefore, we can derive obstacle categories from _____.
+a. Goals
+b. Goal model
+c. Goal categories
+d. Goal obstructions	c
+QN=4 In obstacle diagram, leaf obstacles are connected to countermeasure goals through __________.
+a. Responsibility links
+b. Realizability links
+c. Feasibility links
+d. Resolution links	d
+QN=5 Goal obstruction propagates _______ along goal AND-refinement trees
+a. top-down
+b. bottom-up	b
+QN=6 not (if A then B) amounts to:
+a. not A and not B
+b. A and not B
+c. not A and B
+d. not A or not B	b
+QN=7 Like in any risk management process, obstacle analysis is an iteration of _______ cycles.
+a. Elicit - Evaluate - Control
+b. Identify - Assess - Control
+c. Plan - review - evaluate - consolidate
+d. None of the others	b
+QN=8 An AND-refinement of obstacle O into sub-obstacles O1, O2,..., On should meet the following conditions:
+ 1) {O1, O2, ..., On, Dom} |? false complete AND-refinement
+ 2) {O1, O2, ..., On, Dom} |= O consistent AND-refinement
+ 3) {O1,..., O(j-1), O(j+1), ..., On, Dom} |? O minimal AND-refinement
+Which pair of the arguments is wrong?
+a. 1 & 2
+b. 1 & 3
+c. 2 & 3
+d. All of arguments are true	a
+QN=9 Which one is the "domain completeness" condition for OR-refinement of obstacle O into alternative sub-obstacles Oi:
+a. {Oi, Dom} |? false.
+b. {Oi, Dom} |= O
+c. {not O1, not O2, ..., not On, Dom} |= not O
+d. {Oi, Oj, Dom} |= false (i ? j)	c
+QN=10 
+figure 9.9 - Breaking goals and domain hypotheses in the airbus A320 braking logic
+(A) / (B) should be.
+a. Not ReverseThrustEnabled / Not WheelsTurning
+b. ReverseThrustEnabled And Not WheelsTurning / WheelsTurning And Not ReverseThrustEnabled
+c. ReverseThrustEnabled IF WheelsTurning / WheelsTurning IF Not ReverseThrustEnabled
+d. None of the others	b
+QN=11 Obstacles completeness can show about ______ and_______ (Choose two)
+a. what we know about the domain and how adequate our knowledge is
+b. existential property capturing unadmissible behavior (negative scenario)
+c. obstacle analysis may help elicit and validate relevant domain properties 
+d. condition on system for violation of corresponding assertion	a,c
+QN=12 Which conditions does a statement about an obstacle to an assertion need to meet? 
+a. {not O1,..., not On, Dom } |= G 
+b. {O, Dom } |= not G 
+c. {O, Dom } |? false
+d. O can be satisfied by some system behavior	b,c,d
+QN=13 OR-refinement of obstacle O should be ...
+a. {subOi, Dom } |= O
+b. {subOi, subOj, Dom } |= false
+c. {subO1,..., subOj-1, subOj+1 , ..., subOn, Dom } |= O
+d. {not subO1,..., not subOn, Dom } |= not O
+e. {subOi, Dom } |? false	a,b,d,e
+QN=1 An AND-refinement states that the parent goal can be satisfied by satisfying ___ sub-goals in the refinement.
+a. one of
+b. all
+c. some of	b
+QN=2 An AND-refinement of a goal G into sub-goals G1, G2, ..., Gn should be
+a. Complete, inconsistent, minimal
+b. Complete, accuracy, coverage
+c. Complete, consistent, minimal
+d. None of others	c
+QN=3 Which one of the following statements about the leaf nodes in goals refinement trees is false?
+a. They are nodes that need not be refined further.
+b. They are nodes whose responsibility can be assigned to single software agents.
+c. They are nodes whose responsibility can be assigned to single environment agents.
+d. They can not be domain properties or hypotheses.	d
+QN=4 The goal model captures ______ and_______
+a. responsibility links between goals and conceptual objects
+b. obstruction links between goals and obstacles
+c. reference links from goals to system agents
+d. operationalization links between goals and system operations
+e. coverage links between goals and scenarios	a,c
+QN=5 To start building a goal model, we may obtain ________ goals. Once these goals are obtained, we may build refinement and abstraction paths in a goal diagram
+a. Behaviour
+b. Soft
+c. Critical
+d. Preliminary	d
+QN=6 The goals G1, G2, ..., Gn are divergent in a domain Dom if we can find a feasible boundary condition B under which the goals cannot satisfied the arguments
+a. {G1, G2, ..., Gn, B, Dom} |= true
+b. {G1, G2, ..., Gn, B, Dom} |= false
+c. {G1, G2, ..., Gn, B, Dom} |= G
+d. {G1, G2, ..., Gn, B, Dom} |? G	b
+QN=7 A goal model makes it possible to capture _______ alternative options
+a. only one kind of (Alternative goal refinements)
+b. two kinds of (Alternative goal refinements, Alternative responsibility assignments)
+c. three kinds of (Alternative goal refinements, Alternative goal contributions, Alternative responsibility assignments)
+d. None of the others	b
+QN=8 We can build refinement and abstraction paths in a goal diagram by recursively asking ___ and ___ questions about available goals, respectively
+a. WHY / HOW
+b. WHY / WHAT
+c. HOW / WHY
+d. WHAT / WHY	c
+QN=9 
+Figure 9 shows the __________________
+
+a. Unrealizability-driven refinement pattern.
+b. Unmonitorability-driven refinement pattern.
+c. Divide-and-conquer refinement pattern.
+d. None of the others
+e. Milestone-driven refinement pattern	c
+QN=10 Figure 10
+a. Case-driven refinement pattern
+b. Guard-introduction pattern
+c. Divide-and-conquer pattern
+d. Milestone-driven refinement pattern	d
+QN=11 Given figure 8-11 below. 
+Which of the followings is a pattern used in the figure?
+a. Case-driven refinement pattern
+b. Guard-introduction pattern
+c. Divide-and-conquer pattern
+d. Milestone-driven refinement pattern	b
+QN=12 Which refinement pattern is applied for the goal refinement in the figure 8-12?
+
+ 
+
+[CopyBorrowedIfAvailable]
+Def A book has a copy available for the requesting borrower
+
+[CopyDueSoonIfNotAvailable]
+Def A book without any copy available for loan shall have a copy available within 15 days for the requesting borrower 
+a. Case-driven refinement pattern
+b. Guard-introduction pattern
+c. Divide-and-conquer pattern
+d. Milestone-driven refinement pattern	a
+QN=13 Peter is responsible for goals discovery in RE. He uses some words like "in order to, so as to, so that,.. etc." to search goals in documents. Which of the followings is a Heuristic rules that Peter is using?
+a. Analyze current objectives & problems in system-as-is 
+b. Search for goal-related keywords 
+c. Instantiate goal categories
+d. By abstraction
+e. By refinement	b
+QN=1 Unlike domain properties and ________, goals may be refined, negotiated, assigned as responsibilities to agents and transformed in case of conflict or overexposure to risks.
+a. assumptions
+b. expectations
+c. requirements
+d. hypotheses	d
+QN=2 Behavioral goals are used for building _________ specifications of the system.
+a. Operational
+b. Non-functional
+c. Critical
+d. None of the others	a
+QN=3 An expectation is a goal assigned to a single agent of the _________.
+a. problem world
+b. environment
+c. system-to-be
+d. system-as-is	b
+QN=4 Which one of the following statements is a "soft goal"?
+a. If a book is requested then within a week a copy of the book is borrowed by the requesting patron.
+b. If a train is at a platform then within 5 minutes the train is at the next platform.
+c. The meeting scheduler software should be easy to use by administrative staff.
+d. If a meeting is requested then sooner-or-later the meeting takes place and is attended by all important invited participants.	c
+QN=5 _______ are used as criteria for selecting system options among multiple alternatives.
+a. Maintain goals
+b. Avoid goals
+c. Achieve goals
+d. Soft goals	d
+QN=6 Goals are generally found by top-down ________ of higher-level concerns and by bottom-up ______ from lower-level material such as scenario examples and operational descriptions.
+a. Refinement / abstraction
+b. Abstraction / refinement
+c. Generalization / specialization
+d. Specialization / generalization	a
+QN=7 In the goal model, the finer-grained a goal is, the _______ are required to satisfy it.
+a. fewer requirements
+b. better agents
+c. more agents
+d. fewer agents	d
+QN=8 Goals provide a basic abstraction for addressing the _____ dimension of requirements engineering.
+a. WHY
+b. WHO
+c. WHAT
+d. HOW	a
+QN=9 Goals provide a precise ________ for requirements completeness and pertinence.
+a. Evidence
+b. Criterion
+c. Tool
+d. Role	d
+QN=10 A goal refinement graph show the refinement and contribution links among goals. ________ appear as leaf nodes in this graph.
+a. Soft goals
+b. Domain properties
+c. Requirements
+d. Behavior goals	c
+QN=11 Which of the following items are not non-functional goals (Choose two)?
+a. Information
+b. Compliance
+c. Safety
+d. Security
+e. Satisfaction	a,e
+QN=12 ___________ prescribe different types of protection of agent assets against unintended behaviors.
+a. Accuracy goals
+b. Information goals
+c. Security goals
+d. Stimulus-response goals	c
+QN=13 _____________ refers to the use of goals for requirements elicitation, evaluation, negotiation, elaboration, structuring, documentation, analysis and evolution.
+a. Goal
+b. Goal-oriented RE
+c. Requirement Engineering
+d. Requirement Management	b
+QN=1 Which one of the following links is not a traceability type?
+a. Anticipation link
+b. Use link
+c. Revision link
+d. Variant link
+e. Derivation link
+f. Dependency li	A
+QN=2 Traceability relies on the existence of ___________ between items that we can follow backwards, towards source items, and forwards, towards target items.
+a. Dependency links
+b. Transitions
+c. Associations
+d. None of the others	a
+QN=3 To document assumption and requirement changes, we may assign qualitative levels of ________ to the statements, or levels of ________ in the case of multiple variants.
+a. Stability / Commonality
+b. Revisions / Variants
+c. Derivations / Dependencies
+d. None of the others	a
+QN=4 In "Traceability management process", which one of the following phases is concerned with four issues: the link granularity, link semantic richness, link accuracy and link overhead?
+a. Define traceability policy
+b. Establish traceability links
+c. Exploit traceability links
+d. Maintain traceability links	b
+QN=5 Which one of the following activities should be done in "Change evaluation & prioritization" phase of "Change Control" process?
+a. The team in charge of the project handles all approved changes to produce a new system version.
+b. The review board is responsible to assess the merits, feasibility and cost of the proposed changes in the change request. Some proposed changes are approved, others are rejected and others are deferred.
+c. The team in charge of project maintains a wishlist of possible changes. At certain time intervals, the team consolidates the wishlist into a change request.
+d. None of the others.	b
+QN=6 Dependency is the most general type of traceability link that can be specialized into _____ and _____ links within a single version.
+a. Use / Derivation
+b. Variant / Revision
+c. Revision / Derivation
+d. None of the others	a
+QN=7 Traceability management process composes of 4 phases:
+a) Exploit traceability links
+ b) Establish traceability links
+ c) Maintain traceability links
+ d) Define traceability policy
+ Which one is the appropriate order of these phases:
+a. a, b, c, d
+b. b, a, c, d
+c. d, b, a, c
+d. d, c, a, b	c
+QN=8 Traceability management refers to the process of establishing, recording, exploiting and maintaining traceability _____ in a traceability _____.
+a. Lines / Graph
+b. Relationships / Graph
+c. Connections / Graph
+d. Links / Graph	d
+QN=9 _____________ requires us to identify likely changes, assess their likelihood and document them in the Requirement Document.
+a. Change anticipation
+b. Change assessment
+c. Change validation
+d. None of the others	a
+QN=10 In a Change Control process, the necessity, feasibility, benefits, impact and cost of the requested changes are evaluated by a __________
+a. Inspector
+b. Review board
+c. Stakeholder
+d. None of the others	b
+QN=11 Which of the following actions does the review board need to do when reviewing changes of requirements (Choose three)?
+a. Understand the context of the requested change.
+b. Assess the benefits of proposed change.
+c. Estimate the cost and feasibility of the changes
+d. Maintains a wishlist of possible changes (identified by insiders or collected from outsiders)
+e. Consolidates the wishlist into a change request	a,b,c
+QN=12 Which of the following are activities to be done in "Change Consolidation" stage of change control process (choose three)?
+a. Baselining of the new version of the RD for sharing among project members until the next version is baselined
+b. Prioritize the accepted changes.
+c. Forward propagation of all RD changes downward to software lifecycle items along vertical links of traceability graph.
+d. Updating of the traceability graph.
+e. Detect potential conflicts among the proposed changes.	a,c,d
+QN=13 Which of the following are activities to be done in "Change Evaluation and prioritization" stage of change control process (choose two)?
+a. Baselining of the new version of the RD for sharing among project members until the next version is baselined
+b. Prioritize the accepted changes.
+c. Forward propagation of all RD changes downward to software lifecycle items along vertical links of traceability graph.
+d. Updating of the traceability graph.
+e. Detect potential conflicts among the proposed changes.	b,e
+QN=1 Which one of the following activities should not be done in the phase "Defect evaluation at review meetings" of "Requirements inspection & review process":
+a. The defects found by each inspector are collected and discussed by the meeting participants
+b. The meeting participants keep only defects on which all agree
+c. Each inspector reads the RD or part of it individually to look for defects.
+d. The team documents the conclusions in an inspection report	c
+QN=2 Requirements Inspection process uses __________ guidelines to make it more effective in finding defects.
+a. WHY-WHAT-WHO
+b. WHY-WHAT-WHO-HOW
+c. WHAT-WHO-WHEN-WHERE
+d. None of the others	c
+QN=3 The phase "Individual reviewing", inspectors reads the Requirement Document for defects. They can operate this phase in which of the following modes? 
+a. Free mode, process-based mode, checklist-based mode
+b. Free mode, guideline-based mode, checklist-based mode
+c. Free mode, guideline-based mode, process-based mode
+d. Free mode and checklist-based mode	a
+QN=4 Because the requirements errors are the most expensive, numerous and persistent software errors, so "requirements inspection & review process" should be applied as soon as possible.
+a. TRUE
+b. FALSE	b
+QN=5 "Queries on a requirements database" technique for "Requirements quality assurance" work on parts of the Requirements Document that are specified in terms of the __________.
+a. Structured natural language
+b. Unrestricted natural language
+c. Diagrammatic notations
+d. None of the others	c
+QN=6 Which one of the following modes of individual reviewing rely on lists of specific issues to address while searching for defects?
+a. Checklist-based mode
+b. Checklist-based and Process-based modes
+c. Free mode
+d. None of the others	b
+QN=7 Domain-specific checklists specialize the defect-based ones to the specific constructs of the structured, semi-format or formal specification language used in the requirement document.
+a. TRUE
+b. FALSE	b
+QN=8 For a binary decision table with N entry conditions, there must be _______ columns for the table to list all possible combinations of conditions exhaustively.
+a. 2^N
+b. 2xN
+c. N^2
+d. None of the others	a
+QN=9 In requirements validation by specification animation, the _______ is an execution of the software model, and an animation is a visualization of the simulated model in its environment.
+a. Simulation
+b. Scenarios
+c. Validation
+d. Animator	a
+QN=10 ____________________ form an effective technique for quality assurance, it is the widest in scope and applicability.
+a. "Requirements inspection and reviews"
+b. "Queries on a requirements database"
+c. "Requirements validation by specification animation"
+d. None of the others	a
+QN=11 Which of the following questions are in the checklist used for verifying "Poor structuring" defect type (choose three)?
+a. Is the structuring rule for organizing these RD sections apparent?
+b. Does this RD item cover unrelated requirements?
+c. Does this RD item mix requirements and assumptions together?
+d. Would there be alternative sensible choices?
+e. Does this statement entail a premature design choice?	a,b,c
+QN=12 Which of the following questions are in the checklist used for verifying "Over specification" defect type (choose two)?
+a. Is the structuring rule for organizing these RD sections apparent?
+b. Does this RD item cover unrelated requirements?
+c. Would there be alternative sensible choices?
+d. Does this RD item mix requirements and assumptions together?
+e. Does this statement entail a premature design choice?	c,e
+QN=13 Which of the following questions are in the checklist used for verifying "Ambiguity" defect type (choose two)?
+a. Can this statement be interpreted differently in different relevant contexts?
+b. Is the structuring rule for organizing these RD sections apparent?
+c. Are there other statements using this term with different meaning?
+d. Does this RD item cover unrelated requirements?
+e. Does this RD item mix requirements and assumptions together?	a,c
+QN=1 ER diagram is made from three core constructs: entities, __________ and relationships.
+a. Classes
+b. Methods
+c. Objects
+d. Attributes	d
+QN=2 State machine diagram is made by two core constructs:
+a. States, Relationships
+b. States, Associations
+c. States, Transitions
+d. States, Operations	c
+QN=3 The data-activity duality principle requires actigram items to have some __________ in a datagram, and vice versa.
+a. Countermeasures
+b. Counterparts
+c. Opponents
+d. Companions	b
+QN=4 Actigrams (Datagrams) declare activities (data) by their input/output data (producing/consuming activities) and interconnect them through data (___________) dependency links.
+a. Action
+b. Value
+c. Data
+d. Control	d
+QN=5 
+In Figure 4.9, "DetermineSchedule - <<include>> - ResolveConflicts" means:
+a. ResolveConflicts is a 'sub-operation' of DetermineSchedule.
+b. ResolveConflicts is an 'alternative-operation' of DetermineSchedule.	a
+QN=6 
+In Figure 4.9, "DenyRequest - <<extend>> - AskConstraints" means:
+a. DenyRequest is a sub-operation of AskConstraints.
+b. DenyRequest is an alternative operation of AskConstraints.
+c. DenyRequest is an alternative operation of AskConstraints, when the condition named Unauthorized holds.
+d. None of the others	c
+QN=7 
+Figure 4.10 shows an Event Trace Diagram specifying a meeting scheduling scenario. The first event is meetingRequest, ________ by an Initiator instance and _________ by a Scheduler instance.
+a. controlled/monitored
+b. monitored/controlled
+c. requested/responded
+d. responded/requested	a
+QN=8 In state machine diagram, the event occurrence is a ________ condition for transition firing, whereas a guard is a ________ condition for firing.
+a. sufficient/necessary
+b. necessary/sufficient	a
+QN=9 
+In figure 4.11, the "Planning" state (source state) changes to "MeetingScheduled" state (target state) if __________ (the event) occurs and only if _________ (the guard condition) is true.
+a. scheduleDetermination/[No conflicts]
+b. [No conflicts]/scheduleDetermination	a
+QN=10 
+In figure 4.15, the ER diagram is a confusing requirement.
+a. True
+b. False	a
+QN=11 A_________ is captured by a sequence of state transitions for the system items that the component control
+a. Behavior
+b. State
+c. SM state transition
+d. SM trace
+e. SM State	a
+QN=12 Which of the following are differences of problem diagram comparing with context diagram?
+a. A rectangle with double vertical stripe represent the machine to be built
+b. A rectangle with a single vertical stripe represent the component to be designed
+c. Shared phenomena are controlled/monitored by components
+d. An interface can be declared separately the exclamation mark after a component name prefixing	a,b,d
+QN=13 A_______ diagram can be further detailed by indicating explicitly which component controls a shared phenomena, which component constitutes the machine needs to be built, and which components are affected by which requirements.
+a. context 
+b. Frame
+c. Problem
+d. state machine
+e. entity-relationship	d
+QN=1 The target of ________ is a set of low-risks, conflict-free requirements and assumptions that stakeholders agree on.
+a. Domain Understanding and Elicitation
+b. Requirements Evaluation
+c. Requirements Specification
+d. Requirements Validation	b
+QN=2 Which of the following items is not a type of inconsistency of requirements?
+a. Terminology clash
+b. Designation clash
+c. Inconsistency management
+d. Structure clash	c
+QN=3 _________________. These are statements that can not be satisfied when taken together; their logical conjunction evaluates to false in all circumstances.
+a. Weak conflict or divergence
+b. Designation clash
+c. Structure clash
+d. Strong conflict	d
+QN=4 The following sample statement is a ________ statement.
+
+The staff's viewpoint in our library system might state, 'a borrower should return a borrowed book copy within two weeks'. A stakeholder having the borrower's viewpoint might state, 'a borrower should keep a borrowed book copy as long as he or she needs it'.
+a. Strong conflict
+b. Weak conflict or divergence
+c. Structure clash
+d. Designation clash	b
+QN=5 Risk management process contains the following stages, except for
+a. Risk identification
+b. Risk assessment
+c. Risk resolution
+d. Risk control	c
+QN=6 The goals of risk assessment is to assess likelihood of risks, _________, likelihood of consequences, to control high-priority risks
+a. risk severity
+b. risk resolution
+c. risk control
+d. risk management	a
+QN=7 Assume that risk (r) only cause one consequence (c). Give Likelihood (c) = 0.7, Severity (c) = 5, cost(cm) = 0.5. Exposure(r) =
+a. 1.15
+b. 3.5
+c. 2.5
+d. 0.35	b
+QN=8 The goals of _______ is to reduce high-exposure risks through countermeasures
+a. Risk control
+b. Risk assessment
+c. Risk management
+d. Risk identification	a
+QN=9 Which of the following items are not exploring risk countermeasures techniques?
+a. Using elicitation techniques
+b. Reusing known countermeasures
+c. Using risk reduction tactics
+d. Using design methodologies	d
+QN=10 Which of the following items is not a step in the process of risk management with DDP for RE?
+a. Elaborate the Impact matrix
+b. Elaborate the Effectiveness matrix
+c. Determine optimal balance risk reduction vs. countermeasure cost
+d. Quantitative reasoning for evaluating options	d
+QN=11 Give Evaluation Criteria (NFRs) of scheduling Meeting program to quantitative reasoning for evaluation options as below:
+
+- Fast responds: (Significance weighting: 0.30; Option 1 score: 0.40)
+- Realizable response: (Significance weighting: 0.50; Option 1 score: 0.80)
+- Minimal inconvenience: (Significance weighting: 0.10; Option 1 score: 0.30)
+
+Which of the following is a total score of option 1?
+a. 0.52
+b. 0.55
+c. 0.57
+d. 0.5	b
+QN=12 Which of the following items is a range of estimated score percentage of option (opt) on criterion (crit): Score (opt, crit) ?
+a. 0-->1
+b. 0-->0.99
+c. 0-->10
+d. 0-->100	a
+QN=13 Which of the following items is not a step of Value-cost prioritization process?
+a. Estimate relative contribution of each requirement to project's value
+b. Estimate relative contribution of each requirement to project's cost
+c. Plot relative contributions on value-cost diagram
+d. Build comparison matrix	d
+QN=1 Which of the following techniques has the process as below?
+1. RETRIEVE relevant knowledge from other systems
+2. TRANSPOSE it to the target system
+3. VALIDATE the result, ADAPT it if necessary & INTEGRATE it with the system knowledge already acquired
+a. Scenarios
+b. Knowledge reuse
+c. Interview
+d. Data Collection	b
+QN=2 The following criteria are used for stakeholder analysis, except for
+a. Relevant position in the organization
+b. Level of domain expertise
+c. Create prototypes for system-to-be
+d. Effective role in making decisions about the system-to-be	c
+QN=3 Which is not an obstacle to effective knowledge acquisition?
+a. Distributed and conflicting knowledge sources
+b. Stable conditions
+c. Difficult access to sources
+d. Tacit knowledge and hidden needs	b
+QN=4 Which of the following is an elicitation technique that provides a concrete flavor of what the software will look like?
+a. Prototypes and mock-ups
+b. Background study
+c. Data collection
+d. Card sorts and repertory grids	a
+QN=5 Which is not a concept-driven acquisition technique?
+a. Interview
+b. Repertory grids
+c. Card sorts
+d. Conceptual laddering	a
+QN=6 Which is not a artefact-driven elicitation technique? 
+a. Storyboards and scenarios for problem world exploration
+b. Mock-ups and prototypes for early feedback
+c. Knowledge reuse
+d. Unstructured group sessions	d
+QN=7 Which is not an artefact-driven elicitation technique?
+a. Background study
+b. Data Collection
+c. Group sessions
+d. Questionnaires	c
+QN=8 Which is not a stakeholder-driven elicitation technique?
+a. Interview
+b. Group sessions
+c. Observation and ethnographic studies
+d. Stakeholder analysis	d
+QN=9 The following are obstacles to effective knowledge acquisition, except for
+a. Distributed and conflicting knowledge sources
+b. Difficult access to sources
+c. Interacting with stakeholders
+d. Obstacles to good communication	c
+QN=10 The following are obstacles to effective knowledge acquisition, except for
+a. Sociopolitical factors
+b. Difficult access to sources
+c. Unstable conditions
+d. Interacting with stakeholders	c (n?u ch?n 2 dáp án thì thêm d )
+QN=11 ______________ can be helpful for eliciting non-functional requirements related to usability, performance, and costs.
+a. Questionnaires
+b. Data Collection
+c. Background study
+d. Knowledge reuse	b
+QN=12 Which of the following is not an objective of domain understanding and requirements elicitation stage?
+a. Understanding the system-as-is
+b. Identify the problem and opportunities calling for q new system
+c. Discover the expectations of stakeholders with respect to the new system
+d. Explore alternative ways to develop the new system that could address those needs
+e. Select the preferred proposal system	e
+QN=13 ________ shows aspects related to software functionalities.
+a. A Software prototypes
+b. A functional prototypes
+c. A user interface prototypes 
+d. Screen mock-ups	b
+________ is the requirement document item, which stating a problem world feature in a way that can not be precisely compared with alternative options, or can not be tested or verified in machine solution
+a Omission
+b Inadequacy
+c Immeasurability
+d Noise	c
+QN=2 ______, the system as it should be when the machine will be built and operated in it.
+a. system-exist
+b. system-to-be
+c. system-to-be-next
+d. system-as-is	b
+QN=3 The machine's software to be developed or modified is just one component of the system-to-be that refers to
+a. software-as-is
+b. software-to-be
+c. system-to-be-next
+d. system-as-is	b
+QN=4 Components pertaining to the machine's surrounding world will form
+a. Environment of system-to-be
+b. Environment of system-as-is
+c. Environment of software-as-is
+d. Environment of software-to-be	d
+QN=5 In a _________ project, a brand new software solution is built from scratch to address problems with the system-as-is and exploit new opportunities from technology evolution or market conditions.
+a. greenfield
+b. customer-driven
+c. brownfield
+d. market-driven	a
+QN=6 Requirements engineering is
+a. the processes involved in developing system design
+b. the processes involved in developing system documents
+c. the processes involved in developing and verifying system
+d. the processes involved in developing system requirements	d
+QN=7 ____________refer to "the contextual reasons for a new version of a system must be made explicit in terms of objectives" to be satisfied by
+a. the WHAT dimension
+b. the WHO dimension
+c. the WHY dimension
+d. the HOW dimension	c
+QN=8 Which of the following is not a stage of requirement engineering process?
+a. Domain understanding and elicitation
+b. Evaluation and Negotiation
+c. Specification and documentation
+d. Requirement Traceability	d
+QN=9 _______ addresses the assignment of responsibilities for achieving the objectives, services, and constraints among the components of the system-to-be
+a. the WHAT dimension
+b. the WHO dimension
+c. the WHY dimension
+d. the HOW dimension	b
+QN=10 ________ Statements state properties about the system that hold regardless of how the system behaves. Such properties hold typically because of some natural law or physical constraint.
+a. Descriptive
+b. Description
+c. Prescriptive
+d. Prescription	a
+QN=11 The following statement is an example of ____ statement:
+ - The same book copy can not be borrowed by two different people at the same time.
+a. Prescriptive
+b. Descriptive
+c. Description
+d. Prescription	b
+QN=12 __________statements state desirable properties about the system that may hold or not depending on how system behaves
+a. Descriptive
+b. Description
+c. Prescriptive
+d. Prescription	c
+QN=13 __________is the requirement document item, which cannot be realistically implemented within assigned budget, schedule, or development platform.
+a. Omission
+b. Inadequacy
+c. Immeasurability
+d. Unfeasibility	d
